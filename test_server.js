@@ -1,17 +1,5 @@
 #!/usr/bin/env node
 
-/**
- * Test Suite for MCP Rust/Slint Development Server
- *
- * This test script verifies the MCP server functionality and ensures
- * all tools work correctly. Part of the open-source MCP server project.
- *
- * Copyright (c) 2025 RKTakami
- *
- * Licensed under the MIT License - this is FREE and OPEN SOURCE software!
- * Repository: https://github.com/RKTakami/mcp-rust-slint-server
- */
-
 import { spawn } from 'child_process';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
