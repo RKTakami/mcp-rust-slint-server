@@ -1,0 +1,33 @@
+{
+  "name": "rust-slint-dev-mcp",
+  "version": "0.1.0",
+  "description": "MCP server providing current Rust and Slint development information",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "dev": "tsx src/index.ts",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.7.2",
+    "better-sqlite3": "^9.4.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "mcp",
+    "rust",
+    "slint",
+    "development",
+    "documentation"
+  ],
+  "author": "Roo Code",
+  "license": "MIT"
+}
