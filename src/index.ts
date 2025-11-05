@@ -1,3 +1,27 @@
+/**
+ * MCP Rust/Slint Development Server
+ *
+ * A Model Context Protocol (MCP) server that provides current information
+ * for Rust and Slint development, including packages, components, news,
+ * and resources from GitHub and other reputable sources.
+ *
+ * Copyright (c) 2025 RKTakami
+ *
+ * Licensed under the MIT License. You may obtain a copy of the License at:
+ * https://opensource.org/licenses/MIT
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * Repository: https://github.com/RKTakami/mcp-rust-slint-server
+ *
+ * This is free and open-source software - use it, modify it, and
+ * contribute back to the community!
+ */
+
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";

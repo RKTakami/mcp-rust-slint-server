@@ -1,5 +1,17 @@
 # MCP Rust/Slint Development Server
 
+<div align="center">
+
+**🚀 FREE & OPEN SOURCE MCP SERVER FOR RUST & SLINT DEVELOPMENT**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Open Source](https://img.shields.io/badge/Open%20Source-100%25-green.svg)](https://opensource.org/)
+[![Free](https://img.shields.io/badge/Price-Free-brightgreen.svg)](https://github.com/RKTakami/mcp-rust-slint-server)
+
+**This is completely free software - use it, modify it, and contribute back to the community!**
+
+</div>
+
 A Model Context Protocol (MCP) server that provides current information for Rust and Slint development, including packages, components, news, and resources from GitHub and other reputable sources.
 
 ## Overview
@@ -239,9 +251,50 @@ The server provides the following MCP tools:
 - **Description**: Get cache status and data freshness information
 - **Parameters**: None
 
-## License
+## 🆓 License & Open Source
 
-MIT License - see LICENSE file for details
+### MIT License - Completely Free & Open Source
+
+This project is **100% free and open source** under the MIT License. You have the freedom to:
+
+- ✅ **Use it commercially** - No restrictions
+- ✅ **Modify and customize** - Make it your own
+- ✅ **Distribute freely** - Share with others
+- ✅ **Contribute back** - Help improve the project
+- ✅ **Use in any project** - No attribution required
+
+### What This Means
+- **No Cost**: Completely free to use
+- **No Restrictions**: Use in personal, commercial, or open source projects
+- **Community Driven**: Built by the community, for the community
+- **Contributions Welcome**: Help make it better for everyone
+
+### License Details
+```
+MIT License
+
+Copyright (c) 2025 RKTakami
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+**Full license text**: See [LICENSE](LICENSE) file for complete details.
 
 ## Support
 
